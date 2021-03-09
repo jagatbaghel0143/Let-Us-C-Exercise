@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {  
-    int x1, x2, x3, y1, y2, y3, xm, ym, xn, yn;
-    float x, y;
+    int x1, x2, x3, y1, y2, y3, xm, ym;
     printf("Enter three points in (x,y) form: ");
     scanf("%d %d %d %d %d %d", &x1, &y1, &x2, &y2, &x3, &y3);
     ym = (y2-y1)/(x2-x1);
